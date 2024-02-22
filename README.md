@@ -10,7 +10,8 @@ Transcribe the recorded audio into text.
 Display the transcription in real-time.
 
 
-Requirements
+Requirements:-
+
 Python 3.x
 PyAudio
 tkinter

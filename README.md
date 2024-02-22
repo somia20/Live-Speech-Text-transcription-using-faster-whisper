@@ -11,16 +11,16 @@ Transcribe the recorded audio into text ,
 Display the transcription in real-time ,
 
 
-Requirements:-
+**Requirements:-**
 
 Python 3.x ,
 PyAudio ,
 tkinter ,
 faster_whisper
 
+**Usage**
 
 Clone the repository:
-
 git clone https://github.com/yourusername/your-repository.git
 
 

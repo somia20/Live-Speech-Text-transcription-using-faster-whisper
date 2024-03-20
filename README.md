@@ -1,37 +1,31 @@
-**Speech-Text Recognition with faster - whisper**
+**Speech Recognition Application**
 
-This project demonstrates a simple speech recognition application using Python. It utilizes the PyAudio library for audio recording, 
-a WhisperModel for transcribing speech, and Tkinter for the graphical user interface.
+This is a Python application for speech recognition using faster whisper and real-time transcription of audio recordings. The application allows users to record audio, transcribe the speech, and optionally translate it into English if the detected language is different.
 
+**Features:**
 
-**Features**
+- Real-time speech recognition using a pre-trained model.
+- Transcription of recorded audio into text.
+- Optional translation of non-English speech into English.
+- Graphical user interface (GUI) for easy interaction.
 
-Record audio using a microphone , 
-Transcribe the recorded audio into text ,
-Display the transcription in real-time ,
+**Dependencies:**
 
+Make sure you have the following dependencies installed:
+- Python (3.x recommended)
+- PyAudio
+- tkinter
+- translate
+- faster_whisper
+Install the required dependencies using pip install -r requirements.txt.
 
-**Requirements:-**
+**Usage:**
 
-Python 3.x ,
-PyAudio ,
-tkinter ,
-faster_whisper
+- Run the application by executing python main.py.
+- Click on the "Start Recording" button to begin recording audio.
+- Speak into the microphone to record your speech.
+- Click on the "Stop Recording" button to stop recording.
 
-**Usage**
+- The transcribed text will be displayed in the text area.
+- If the detected language is not English, the text will be translated into English.
 
-Clone the repository:
-git clone https://github.com/yourusername/your-repository.git
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Usage
-
-Run the Python script:
-python app.py , 
-Click on the "Start Recording" button to begin recording audio ,
-Click on the "Stop Recording" button to stop recording ,
-The transcription will be displayed on the interface
